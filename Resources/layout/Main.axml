@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:src="@drawable/ic_applauncher2"
+        android:layout_width="108dp"
+        android:layout_height="108dp"
+        android:id="@+id/imageView1"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp" />
+    <TextView
+        android:text="A chat app made for the website admin/support/customer service personnel.  It receives messages via SMS from the website and sends messages to the website via HTTP."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:layout_margin="10dp"
+        android:gravity="center" />
+    <Button
+        android:text="OK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonOK"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>

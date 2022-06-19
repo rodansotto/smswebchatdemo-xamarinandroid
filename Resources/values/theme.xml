@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <style name="Theme.Custom1" parent="@android:style/Theme.Material.Light">
+    <item name="android:colorPrimary">@color/primaryColor</item>
+    <item name="android:colorPrimaryDark">@color/primaryDarkColor</item>
+    <item name="android:textColorPrimary">@color/primaryTextColor</item>
+    <item name="android:textColorSecondary">@color/secondaryTextColor</item>
+    <item name="android:colorAccent">@color/secondaryColor</item>
+    <item name="android:colorControlNormal">@color/secondaryColor</item>
+    <item name="android:colorButtonNormal">@color/secondaryColor</item>
+    <item name="android:colorControlActivated">@color/secondaryDarkColor</item>
+  </style>
+</resources>
